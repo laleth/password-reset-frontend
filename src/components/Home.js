@@ -49,7 +49,7 @@ function Home() {
       <div className='register'>
       <h2>Please register by providing the Email and Password</h2>
       <input type='text' placeholder='Enter Your Username' onChange={(e)=>setUsername(e.target.value)} value={username}/><br/>
-      <input type='text' placeholder='Enter Your Password' onChange={(e)=>setPassword(e.target.value)} value={password}/><br/>
+      <input type='password' placeholder='Enter Your Password' onChange={(e)=>setPassword(e.target.value)} value={password}/><br/>
       <input type='text' placeholder='Enter Your Eamil' onChange={(e)=>setRegemail(e.target.value)}value={regemail}/><br/>
       <button type='button' onClick={handleRegister}>
         Register
