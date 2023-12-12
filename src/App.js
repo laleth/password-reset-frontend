@@ -8,7 +8,6 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <h1>Please Enter your Email to verify</h1>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

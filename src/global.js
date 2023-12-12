@@ -1,1 +1,1 @@
-export const API = "https://password-rest-mab9.onrender.com"
+export const API = "https://password-reset-64x4.onrender.com"
